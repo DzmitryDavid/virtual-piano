@@ -1,0 +1,28 @@
+@import 'button';
+@import 'piano';
+@import 'header';
+@import 'footer';
+@import 'toggle';
+@import 'media';
+
+*,*::after, ::before {
+    box-sizing: border-box;
+
+}
+h1, a {
+    text-decoration: none;
+    margin: 0;
+}
+body {
+    font-family: 'Dancing Script', cursive;
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #434343 0%, black 100%);
+    margin: 0;
+    padding: 4px;
+    border: 2px solid #fff;
+}
+.container {
+    margin: 0 auto;
+    text-align: center;
+    width: 1200px;
+}

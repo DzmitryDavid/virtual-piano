@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 120px;
+    
+    &__title {
+        text-align: center;
+        display: inline-block;
+        border-bottom: 1px solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+        font-size: 70px;
+        color: #fff;
+        letter-spacing: 7px;
+    }
+    &__fullscreen {
+        display: flex;
+        align-items: center;
+        color: #cdcdcd;
+        background-image: url('../../assets/icons/fullscreen.svg');
+        justify-content: center;
+        width: 70px;
+        height: 70px;
+        font-size: 24px;
+        transition: all ease 0.4s;
+        &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+            color: #fff;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.footer {
+    display: flex;
+    width: 1200px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    &__description  {
+        &-title {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            transition: all ease 0.5s;
+            text-decoration: none;
+            span {
+                color:#060607;
+                display:block;
+                font-size: 25px;
+                
+            }
+            &:hover {
+                cursor:pointer;
+                transform: scale(1.1);
+            }
+        }
+    }
+    &__logo {
+        &-git img {
+            transition: all ease 0.5s;
+            width:60px;
+            height: 60px;
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.1);
+            }
+            
+        }
+        &-rs img {
+            transition: all ease 0.5s;
+            width:80px;
+            height: 80px;
+            
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.1);
+            }
+        }
+    }
+    
+}
